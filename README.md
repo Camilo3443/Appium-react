@@ -1,0 +1,2 @@
+# AppiumProjectsCore
+# Appium-react
