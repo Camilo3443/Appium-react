@@ -1,6 +1,4 @@
-# AppiumProjectsCore
 # Appium-react
-# AppiumCrossPlatform
 
  #Pre-requisites IOS TESTS:
               
