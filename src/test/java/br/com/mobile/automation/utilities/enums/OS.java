@@ -1,4 +1,4 @@
-package br.com.estacio.utilities.enums;
+package br.com.mobile.automation.utilities.enums;
 
 public enum OS {
 	ANDROID("Android"), IOS("IOS");

@@ -3,8 +3,42 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f47dc84-16e4-4952-a74d-d30c94022417" name="Default Changelist" comment="" />
+    <list default="true" id="5f47dc84-16e4-4952-a74d-d30c94022417" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/constants/home/HomeConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/constants/home/HomeConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/constants/login/LoginConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/constants/login/LoginConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/constants/termos_de_uso/TermosDeUsoConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/constants/termos_de_uso/TermosDeUsoConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/page/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/page/home/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/page/login/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/page/login/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/page/termos_de_uso/TermosDeUsoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/page/termos_de_uso/TermosDeUsoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/test/login/Test_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/test/login/Test_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/test/login/Test_LoginAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/test/login/Test_LoginAndroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/test/login/Test_LoginIOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/test/login/Test_LoginIOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/utilities/BaseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/utilities/BaseConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/utilities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/utilities/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/utilities/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/utilities/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/utilities/enums/OS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/utilities/enums/OS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/utilities/listener/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/utilities/listener/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/estacio/utilities/screen_actions/ScreenActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/mobile/automation/utilities/screen_actions/ScreenActions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,11 +67,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565812226139" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -125,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564424461574</updated>
-      <workItem from="1600737908786" duration="89000" />
+      <workItem from="1600737908786" duration="414000" />
     </task>
     <servers />
   </component>
@@ -151,6 +187,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="96" key="#Project_Structure" timestamp="1600737997084">

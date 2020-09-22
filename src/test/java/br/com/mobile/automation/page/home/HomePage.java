@@ -1,9 +1,9 @@
-package br.com.estacio.page.home;
+package br.com.mobile.automation.page.home;
 
+import br.com.mobile.automation.utilities.screen_actions.ScreenActions;
 import org.junit.Assert;
 
-import br.com.estacio.constants.home.HomeConstants;
-import br.com.estacio.utilities.screen_actions.ScreenActions;
+import br.com.mobile.automation.constants.home.HomeConstants;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;

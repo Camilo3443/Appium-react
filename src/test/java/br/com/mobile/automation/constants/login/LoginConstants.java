@@ -1,4 +1,4 @@
-package br.com.estacio.constants.login;
+package br.com.mobile.automation.constants.login;
 
 public class LoginConstants {
 

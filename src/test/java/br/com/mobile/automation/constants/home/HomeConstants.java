@@ -1,4 +1,4 @@
-package br.com.estacio.constants.home;
+package br.com.mobile.automation.constants.home;
 
 public class HomeConstants {
 

@@ -1,6 +1,6 @@
-package br.com.estacio.test.login;
+package br.com.mobile.automation.test.login;
 
-import br.com.estacio.utilities.BaseTest;
+import br.com.mobile.automation.utilities.BaseTest;
 
 public class Test_Login extends BaseTest {
 	

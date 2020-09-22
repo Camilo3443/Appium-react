@@ -1,4 +1,4 @@
-package br.com.estacio.utilities.listener;
+package br.com.mobile.automation.utilities.listener;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,8 +9,8 @@ import org.junit.runner.Description;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import br.com.estacio.utilities.BaseConstants;
-import br.com.estacio.utilities.DriverFactory;
+import br.com.mobile.automation.utilities.BaseConstants;
+import br.com.mobile.automation.utilities.DriverFactory;
 import io.qameta.allure.Attachment;
 
 public class TestListener extends TestWatcher {

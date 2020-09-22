@@ -1,8 +1,8 @@
-package br.com.estacio.utilities;
+package br.com.mobile.automation.utilities;
 
 import java.time.Duration;
 
-import br.com.estacio.utilities.enums.OS;
+import br.com.mobile.automation.utilities.enums.OS;
 
 public class BaseConstants {
 

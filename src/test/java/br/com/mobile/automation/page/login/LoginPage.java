@@ -1,8 +1,9 @@
-package br.com.estacio.page.login;
+package br.com.mobile.automation.page.login;
 
-import br.com.estacio.constants.login.LoginConstants;
-import br.com.estacio.utilities.BaseConstants;
-import br.com.estacio.utilities.screen_actions.ScreenActions;
+import br.com.mobile.automation.constants.login.LoginConstants;
+import br.com.mobile.automation.utilities.BaseConstants;
+import br.com.mobile.automation.utilities.screen_actions.ScreenActions;
+import br.com.mobile.automation.utilities.enums.OS;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
@@ -40,10 +41,10 @@ public class LoginPage extends ScreenActions {
 	
 	public LoginPage hideKeyboard() {
 		switch (BaseConstants.executionOS) {
-			case IOS:
+			case OS.IOS:
 				FLD_TITLE.click();
 				break;
-			case ANDROID:
+			case OS.ANDROID:
 				break;
 		}
 		return this;

@@ -1,12 +1,12 @@
-package br.com.estacio.utilities;
+package br.com.mobile.automation.utilities;
 
+import br.com.mobile.automation.page.login.LoginPage;
+import br.com.mobile.automation.page.termos_de_uso.TermosDeUsoPage;
+import br.com.mobile.automation.utilities.listener.TestListener;
 import org.junit.Rule;
 import org.junit.rules.TestName;
 
-import br.com.estacio.page.home.HomePage;
-import br.com.estacio.page.login.LoginPage;
-import br.com.estacio.page.termos_de_uso.TermosDeUsoPage;
-import br.com.estacio.utilities.listener.TestListener;
+import br.com.mobile.automation.page.home.HomePage;
 
 public class BaseTest {
 

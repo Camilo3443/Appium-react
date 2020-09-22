@@ -1,10 +1,10 @@
-package br.com.estacio.test.login;
+package br.com.mobile.automation.test.login;
 
+import br.com.mobile.automation.utilities.BaseConstants;
+import br.com.mobile.automation.utilities.enums.OS;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.estacio.utilities.BaseConstants;
-import br.com.estacio.utilities.enums.OS;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;

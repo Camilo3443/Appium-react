@@ -1,9 +1,10 @@
-package br.com.estacio.utilities;
+package br.com.mobile.automation.utilities;
 
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import br.com.mobile.automation.utilities.enums.OS;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.AppiumDriver;
@@ -37,7 +38,7 @@ public class DriverFactory {
 	public static void createDriver() {
 		DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 		switch (BaseConstants.executionOS) {
-			case ANDROID:
+			case OS.ANDROID:
 				File classpathRoot = new File(System.getProperty("user.dir"));
 				File appDir = new File(classpathRoot, "/src/test/resources");
 				File app = new File(appDir, "app-development-release.apk");
@@ -58,7 +59,7 @@ public class DriverFactory {
 				}
 
 				break;
-			case IOS:
+			case OS.IOS:
 				classpathRoot = new File(System.getProperty("user.dir"));
 				appDir = new File(classpathRoot, "/src/test/resources/");
 				app = new File(appDir, "EstacioApp.app");

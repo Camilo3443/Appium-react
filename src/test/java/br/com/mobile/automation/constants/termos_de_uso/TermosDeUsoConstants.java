@@ -1,4 +1,4 @@
-package br.com.estacio.constants.termos_de_uso;
+package br.com.mobile.automation.constants.termos_de_uso;
 
 public class TermosDeUsoConstants {
 

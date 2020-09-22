@@ -1,19 +1,19 @@
-package br.com.estacio.utilities.screen_actions;
+package br.com.mobile.automation.utilities.screen_actions;
 
-import static br.com.estacio.utilities.DriverFactory.getDriver;
+import static br.com.mobile.automation.utilities.DriverFactory.getDriver;
 import static io.appium.java_client.touch.WaitOptions.waitOptions;
 import static io.appium.java_client.touch.offset.PointOption.point;
 
 import java.time.Duration;
 import java.util.List;
 
+import br.com.mobile.automation.utilities.BaseConstants;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.support.PageFactory;
 
-import br.com.estacio.utilities.BaseConstants;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;

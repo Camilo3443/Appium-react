@@ -1,8 +1,8 @@
-package br.com.estacio.page.termos_de_uso;
+package br.com.mobile.automation.page.termos_de_uso;
 
+import br.com.mobile.automation.utilities.screen_actions.ScreenActions;
 import org.junit.Assert;
 
-import br.com.estacio.utilities.screen_actions.ScreenActions;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
