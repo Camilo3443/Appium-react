@@ -1,12 +1,10 @@
 # Appium-react
 
-### Instalando Ambiente no Mac
+### Install on Mac
 
-```ruby
-a. Instalar o Homebrew:
-   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"r
+
    
-b. Instalar JDK para o Mac:
+b. install JDK para o Mac:
    http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 c. Instalando e configurando o rbenv:
@@ -23,7 +21,7 @@ e. Instalar Appium Desktop
    http://appium.io/ => Clique em download e baixe a versão mais recente para o seu SO
 ```
 
-### Variáveis de Ambiente JAVA
+###  environment JAVA
 ```ruby
 Abrir arquivo de configuração
 open ~/.bash_profile
@@ -33,7 +31,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=$JAVA_HOME/bin:$PATH 
 ```
 
-### Variáveis de Ambiente do Android
+###  environment Android
 
 ```ruby
 Abrir arquivo de configuração
