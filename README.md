@@ -21,7 +21,9 @@ e. Instalar Appium Desktop
    http://appium.io/ => Clique em download e baixe a versão mais recente para o seu SO
 ```
 
-###  environment JAVA
+
+### Environment JAVA
+
 ```ruby
 Abrir arquivo de configuração
 open ~/.bash_profile
@@ -31,7 +33,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=$JAVA_HOME/bin:$PATH 
 ```
 
-###  environment Android
+###  Environment Android
 
 ```ruby
 Abrir arquivo de configuração
